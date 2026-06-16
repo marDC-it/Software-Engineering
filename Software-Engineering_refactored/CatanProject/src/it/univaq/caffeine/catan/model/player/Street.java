@@ -1,0 +1,22 @@
+package it.univaq.caffeine.catan.model.player;
+
+import it.univaq.caffeine.catan.model.board.Edge;
+import it.univaq.caffeine.catan.model.enums.BuildingType;
+
+public class Street extends Building {
+    private static final int VICTORY_POINTS = 0;
+    private Edge edge;
+
+    public Street(String color, Player owner) {
+        super(color, owner);
+    }
+
+    public void setEdge(Edge e) { this.edge = e; }
+    public Edge getEdge() { return edge; }
+
+    @Override
+    public BuildingType getBuildingType() { return BuildingType.STREET; }
+
+    @Override
+    public int getVictoryPoints() { return VICTORY_POINTS; }
+}

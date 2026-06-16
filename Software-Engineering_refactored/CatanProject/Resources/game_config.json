@@ -1,0 +1,88 @@
+{
+  "minPlayers": 2,
+  "maxPlayers": 4,
+  "victoryPointsGoal": 8,
+  "robberHandLimit": 7,
+
+  "gameModes": [
+    "Local",
+    "Against Bots"
+  ],
+  "playerColors": [
+    "Red",
+    "Blue",
+    "Green",
+    "Yellow"
+  ],
+  "botDifficulties": [
+    "Easy",
+    "Strategic"
+  ],
+
+  "maxColonyForPlayer": 5,
+  "maxCitiesForPlayer": 4,
+  "maxStreetsForPlayer": 15,
+
+  "bankResourcesPerType": 19,
+  "bankDefaultRate": 4,
+  "victoryPointsColony": 1,
+  "victoryPointsCity": 2,
+
+  "buildingCosts": {
+    "COLONY":           {"WOOD": 1, "BRICK": 0, "WHEAT": 0, "SHEEP": 1},
+    "STREET":           {"WOOD": 0, "BRICK": 0},
+    "CITY":             {"WHEAT": 1, "ORE": 1},
+    "DEVELOPMENT_CARD": {"WHEAT": 0, "SHEEP": 0, "ORE": 0}
+  },
+
+  "deckComposition": {
+    "KNIGHT": 10,
+    "MONOPOLY": 2,
+    "DISCOVERY": 2,
+    "ROAD_BUILDING": 2,
+    "TOWN_HALL": 1,
+    "MARKET_SQUARE": 5,
+    "CATHEDRAL": 1,
+    "LIBRARY": 1,
+    "UNIVERSITY": 1
+  },
+
+  "longestRoadMinimum": 5,
+  "longestRoadBonus": 2,
+  "largestArmyMinimum": 3,
+  "largestArmyBonus": 2,
+
+
+  "terrainDist": [
+    "WOOD", "WOOD", "WOOD", "WOOD",
+    "SHEEP", "SHEEP", "SHEEP", "SHEEP",
+    "WHEAT", "WHEAT", "WHEAT", "WHEAT",
+    "BRICK", "BRICK", "BRICK",
+    "ORE", "ORE", "ORE",
+    "DESERT"
+  ],
+
+  "tokenNumbers": [
+    2, 3, 3, 4, 4, 5, 5, 6, 6, 8, 8, 9, 9, 10, 10, 11, 11, 12
+  ],
+
+  "tileAxial": [
+    [ 0,-2], [ 1,-2], [ 2,-2],
+    [-1,-1], [ 0,-1], [ 1,-1], [ 2,-1],
+    [-2, 0], [-1, 0], [ 0, 0], [ 1, 0], [ 2, 0],
+    [-2, 1], [-1, 1], [ 0, 1], [ 1, 1],
+    [-2, 2], [-1, 2], [ 0, 2]
+  ],
+
+  "ports": [
+    {"resourceType": null,    "rate": 3, "x": 317.0, "y": 156.0},
+    {"resourceType": "ORE",   "rate": 2, "x": 437.0, "y": 156.0},
+    {"resourceType": null,    "rate": 3, "x": 616.0, "y": 325.0},
+    {"resourceType": "WHEAT", "rate": 2, "x": 675.0, "y": 415.0},
+    {"resourceType": "WOOD",  "rate": 2, "x": 576.0, "y": 577.0},
+    {"resourceType": null,    "rate": 3, "x": 333.0, "y": 664.0},
+    {"resourceType": "BRICK", "rate": 2, "x": 187.0, "y": 572.0},
+    {"resourceType": "SHEEP", "rate": 2, "x":  79.0, "y": 416.0},
+    {"resourceType": null,    "rate": 3, "x": 143.0, "y": 322.0}
+  ]
+}
