@@ -13,6 +13,7 @@ Il codice segue un design orientato agli oggetti basato sugli artefatti UML del 
 
 L'ultimo refactoring mantiene invariato il comportamento esterno del gioco, ma migliora la struttura interna applicando principi GRASP e pattern GoF: Strategy, State, carte polimorfiche, servizi dedicati e gerarchie di dominio piu chiare.
 
+
 ---
 
 ## Architettura
